@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="game.js" defer></script>
+</head>
+<body>
+    <h1>Welcome to the RPG Game</h1>
+    <div id="game-container"></div>
+    <script>
+        // Game Initialization
+        const gameContainer = document.getElementById('game-container');
+
+        function initGame() {
+            // Load assets and setup game environment
+            loadAssets();
+        }
+
+        function loadAssets() {
+            // Logic to load game assets from the repository
+            // e.g. images, audio, etc.
+            console.log('Assets loaded successfully.');
+        }
+
+        initGame();
+    </script>
+</body>
+</html>
